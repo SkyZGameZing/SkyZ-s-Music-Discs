@@ -2,6 +2,8 @@ package net.skyzgamezing.musicdiscmod;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.skyzgamezing.musicdiscmod.block.ModBlocks;
+import net.skyzgamezing.musicdiscmod.item.ModCreativeModeTabs;
 import net.skyzgamezing.musicdiscmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,8 +39,10 @@ public class MusicDiscMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us

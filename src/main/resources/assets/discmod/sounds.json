@@ -1,0 +1,10 @@
+{
+  "fein": {
+    "sounds": [
+      {
+        "name": "discmod:fein",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -28,7 +28,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(MusicDiscMod.MOD_ID, "disc_items_tab"))
                     .title(Component.translatable("creativetab.discmod.disc_songs"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        //insert music here when added.
+                        output.accept(ModItems.FEIN_MUSIC_DISC);
                     }).build());
 
 

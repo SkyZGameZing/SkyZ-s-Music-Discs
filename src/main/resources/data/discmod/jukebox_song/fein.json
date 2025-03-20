@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.discmod.fein_music_disc.desc"
+  },
+  "length_in_seconds": 209.0,
+  "sound_event": "discmod:fein"
+}

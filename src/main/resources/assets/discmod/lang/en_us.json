@@ -3,5 +3,8 @@
     "item.discmod.disc_shard": "Disc Shard",
 
     "creativetab.discmod.disc_items": "Disc Items",
-    "creativetab.discmod.disc_songs": "Disc Songs"
+    "creativetab.discmod.disc_songs": "Disc Songs",
+
+    "item.discmod.fein_music_disc": "Fe!n Music Disc",
+    "item.discmod.fein_music_disc.desc": "Fe!n - Travis Scott"
 }

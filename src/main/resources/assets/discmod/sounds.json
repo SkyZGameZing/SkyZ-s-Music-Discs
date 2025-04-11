@@ -22,5 +22,21 @@
         "stream": true
       }
     ]
+  },
+  "seeyouagain": {
+    "sounds": [
+      {
+        "name": "discmod:seeyouagain",
+        "stream": true
+      }
+    ]
+  },
+  "whenimgone": {
+    "sounds": [
+      {
+        "name": "discmod:whenimgone",
+        "stream": true
+      }
+    ]
   }
 }

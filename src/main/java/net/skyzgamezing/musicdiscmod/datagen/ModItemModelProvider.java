@@ -20,5 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.FEIN_MUSIC_DISC.get());
         basicItem(ModItems.EVERLONG_MUSIC_DISC.get());
         basicItem(ModItems.LIFE_MUSIC_DISC.get());
+        basicItem(ModItems.SEEYOUAGAIN_MUSIC_DISC.get());
+        basicItem(ModItems.WHENIMGONE_MUSIC_DISC.get());
     }
 }

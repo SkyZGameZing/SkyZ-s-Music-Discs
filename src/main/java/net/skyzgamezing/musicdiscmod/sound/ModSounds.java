@@ -27,6 +27,14 @@ public class ModSounds {
     public static final Supplier<SoundEvent> LIFE = registerSoundEvent("life");
     public static final ResourceKey<JukeboxSong> LIFE_KEY = createSong("life");
 
+    public static final Supplier<SoundEvent> SEEYOUAGAIN = registerSoundEvent("seeyouagain");
+    public static final ResourceKey<JukeboxSong> SEEYOUAGAIN_KEY = createSong("seeyouagain");
+
+    public static final Supplier<SoundEvent> WHENIMGONE = registerSoundEvent("whenimgone");
+    public static final ResourceKey<JukeboxSong> WHENIMGONE_KEY = createSong("whenimgone");
+
+
+
     //End of music disc static finals here.
 
     private static ResourceKey<JukeboxSong> createSong(String name) {

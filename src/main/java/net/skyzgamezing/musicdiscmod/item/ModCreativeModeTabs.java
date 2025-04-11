@@ -31,6 +31,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FEIN_MUSIC_DISC);
                         output.accept(ModItems.EVERLONG_MUSIC_DISC);
                         output.accept(ModItems.LIFE_MUSIC_DISC);
+                        output.accept(ModItems.SEEYOUAGAIN_MUSIC_DISC);
+                        output.accept(ModItems.WHENIMGONE_MUSIC_DISC);
                     }).build());
 
 

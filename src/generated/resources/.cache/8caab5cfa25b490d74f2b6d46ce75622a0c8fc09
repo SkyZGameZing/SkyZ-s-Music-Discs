@@ -1,6 +1,8 @@
-// 1.21.1	2025-04-10T22:44:26.4644094	Item Models: discmod
+// 1.21.1	2025-04-10T23:50:32.5919489	Item Models: discmod
 20b1882e9e98a7d7c87cc308130b0714a621df41 assets/discmod/models/item/basic_disc.json
 a2e5ff88932606de24c092d0499d7163bf86d08d assets/discmod/models/item/disc_shard.json
 f2ab84528fb594413a502a4d7c8d414699d27222 assets/discmod/models/item/everlong_music_disc.json
 23f83bfc959d4f8180c3de6988a5c4715de7dc82 assets/discmod/models/item/fein_music_disc.json
 7f4d52a388b171e149aa282d1f0da6bc8184e7bf assets/discmod/models/item/life_music_disc.json
+2486169a6f86a53b5c531421e56d5428fd184384 assets/discmod/models/item/seeyouagain_music_disc.json
+8963722def3e3b267ce8beca57bf671256399ef3 assets/discmod/models/item/whenimgone_music_disc.json

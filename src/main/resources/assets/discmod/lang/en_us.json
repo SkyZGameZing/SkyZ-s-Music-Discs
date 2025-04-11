@@ -12,5 +12,11 @@
     "item.discmod.everlong_music_disc.desc": "Everlong - Foo Fighters",
 
     "item.discmod.life_music_disc": "XO Tour Llif3 Music Disc",
-    "item.discmod.life_music_disc.desc": "XO Tour Llif3 - Lil Uzi Vert"
+    "item.discmod.life_music_disc.desc": "XO Tour Llif3 - Lil Uzi Vert",
+
+    "item.discmod.seeyouagain_music_disc": "See You Again Music Disc",
+    "item.discmod.seeyouagain_music_disc.desc": "See You Again - Tyler, The Creator",
+
+    "item.discmod.whenimgone_music_disc": "When I'm Gone Music Disc",
+    "item.discmod.whenimgone_music_disc.desc": "When I'm Gone - 3 Doors Down"
 }

@@ -30,6 +30,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.LIFE_KEY).stacksTo(1)));
 
 
+    public static final DeferredItem<Item> SEEYOUAGAIN_MUSIC_DISC = ITEMS.register("seeyouagain_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SEEYOUAGAIN_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> WHENIMGONE_MUSIC_DISC = ITEMS.register("whenimgone_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.WHENIMGONE_KEY).stacksTo(1)));
     //End of music disc area.
 
     public static void register(IEventBus eventBus) {

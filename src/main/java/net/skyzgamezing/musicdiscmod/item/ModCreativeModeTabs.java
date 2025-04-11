@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.discmod.disc_songs"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.FEIN_MUSIC_DISC);
+                        output.accept(ModItems.EVERLONG_MUSIC_DISC);
                     }).build());
 
 

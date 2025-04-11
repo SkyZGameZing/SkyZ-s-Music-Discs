@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.discmod.everlong_music_disc.desc"
+  },
+  "length_in_seconds": 250.0,
+  "sound_event": "discmod:everlong"
+}

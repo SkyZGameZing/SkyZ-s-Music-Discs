@@ -16,8 +16,16 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, MusicDiscMod.MOD_ID);
 
+    //Add music disc static finals here or something like that below.
+
     public static final Supplier<SoundEvent> FEIN = registerSoundEvent("fein");
     public static final ResourceKey<JukeboxSong> FEIN_KEY = createSong("fein");
+
+    public static final Supplier<SoundEvent> EVERLONG = registerSoundEvent("everlong");
+    public static final ResourceKey<JukeboxSong> EVERLONG_KEY = createSong("everlong");
+
+
+    //End of music disc static finals here.
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(MusicDiscMod.MOD_ID, name));

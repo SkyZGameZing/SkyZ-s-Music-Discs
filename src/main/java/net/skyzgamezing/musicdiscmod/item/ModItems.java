@@ -19,6 +19,10 @@ public class ModItems {
     public static final DeferredItem<Item> FEIN_MUSIC_DISC = ITEMS.register("fein_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.FEIN_KEY).stacksTo(1)));
 
+    public static final DeferredItem<Item> EVERLONG_MUSIC_DISC = ITEMS.register("everlong_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.EVERLONG_KEY).stacksTo(1)));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -24,6 +24,8 @@ public class ModSounds {
     public static final Supplier<SoundEvent> EVERLONG = registerSoundEvent("everlong");
     public static final ResourceKey<JukeboxSong> EVERLONG_KEY = createSong("everlong");
 
+    public static final Supplier<SoundEvent> LIFE = registerSoundEvent("life");
+    public static final ResourceKey<JukeboxSong> LIFE_KEY = createSong("life");
 
     //End of music disc static finals here.
 

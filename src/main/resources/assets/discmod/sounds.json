@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "life": {
+    "sounds": [
+      {
+        "name": "discmod:life",
+        "stream": true
+      }
+    ]
   }
 }
